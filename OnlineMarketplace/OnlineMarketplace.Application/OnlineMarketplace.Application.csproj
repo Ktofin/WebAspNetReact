@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OnlineMarketplace.Domain\OnlineMarketplace.Domain.csproj" />
+      <ProjectReference Include="..\OnlineMarketplace.Infrastructure\OnlineMarketplace.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
